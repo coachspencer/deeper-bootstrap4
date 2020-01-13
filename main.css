@@ -2,3 +2,12 @@
     text-align: center;
     background: none;
 }
+
+
+body {
+    background-image: url('z.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+
