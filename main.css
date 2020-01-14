@@ -3,11 +3,9 @@
     background: none;
 }
 
-
-body {
+.sectionlight{
     background-image: url('z.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
-  }
-
+}
