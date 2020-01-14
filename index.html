@@ -5,7 +5,8 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="./css/bootstrap.min.css">
@@ -147,10 +148,11 @@
         <div class="col-sm-12">
           <div class="row">
             <div class="col-sm-12 col-lg-4">
-              <img class="img-fluid imgCenter" src="cool.jpg">
+              <img class="img-fluid imgCenter" src="z.jpg">
               <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-lg btnCenter btn-danger">phikelela</button>
+                  <button type="button" class="btn btn-lg btnCenter btn-danger" data-toggle="modal"
+                    data-target=".Sm-modal-lg">phikelela</button>
                 </div>
               </div>
             </div>
@@ -158,7 +160,8 @@
               <img class="img-fluid imgCenter" src="z.jpg">
               <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-lg btnCenter btn-danger">phikelela</button>
+                  <button type="button" class="btn btn-md btnCenter btn-danger" data-toggle="modal"
+                    data-target=".nm-modal-md">phikelela</button>
                 </div>
               </div>
             </div>
@@ -166,7 +169,8 @@
               <img class="img-fluid imgCenter" src="dt.jpg">
               <div class="row">
                 <div class="col-sm-12">
-                  <button type="button" class="btn btn-lg btnCenter btn-danger">phikelela</button>
+                  <button type="button" class="btn btn-sm btnCenter btn-danger" data-toggle="modal"
+                    data-target=".lm-modal-sm">phikelela</button>
                 </div>
               </div>
             </div>
@@ -219,7 +223,64 @@
       </div>
     </div>
 
+    <footer class="footer bg-dark">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-lg-3">
+            <img class="img-fluid footerimg" src="d.jpg">
+          </div>
+          <div class="col-sm-12 col-lg-3">
 
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--sidemodal-->
+
+    <div class="modal fade Sm-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lZejSq_ZbPo"
+              allowfullscreen></iframe>
+          </div>
+          <h1>Cruncher</h1>
+          <p>i enjoy crunching the will out of people</p>
+        </div>
+      </div>
+    </div>
+
+    <!--nextModal-->
+    <div class="modal fade nm-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-md">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lZejSq_ZbPo"
+              allowfullscreen></iframe>
+          </div>
+          <h1>Cruncher</h1>
+          <p>i enjoy crunching the will out of people</p>
+        </div>
+      </div>
+    </div>
+
+    <!--lastModal-->
+    <div class="modal fade lm-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lZejSq_ZbPo"
+              allowfullscreen></iframe>
+          </div>
+          <h1>Cruncher</h1>
+          <p>i enjoy crunching the will out of people</p>
+        </div>
+      </div>
+    </div>
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
     <script src=" https://code.jquery.com/jquery-3.1.1.slim.min.js"
       integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
