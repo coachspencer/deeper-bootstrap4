@@ -8,4 +8,23 @@
     background-repeat: no-repeat;
     background-attachment: fixed;  
     background-size: cover;
+    padding: 2rem;
+
+}
+
+.sectionDark{
+    background-color:rgb(46, 87, 53);
+    padding: 2rem;
+}
+
+.coolStuffwrapper{
+    margin-top: 20px;
+
+}
+
+button.coolStuffwrapperbtn{
+    background-color: seagreen;
+    color: rgb(12, 12, 12);
+    display: block;
+    margin: auto;
 }
