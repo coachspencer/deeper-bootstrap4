@@ -55,14 +55,21 @@ h5.modal-title{
     width: 34%;
 }
 
+.fa{
+    margin: 10px;
+}
 .fa-battle-net{
-    color: springgreen;
+    color: rgb(14, 73, 44);
 }
 
 .fa-cat{
-    color: rgb(21, 112, 67);
+    color: rgb(0, 10, 5);
 }
 
 .fa-gitkraken{
-    color: transparent;
+    color: rgb(70, 18, 18);
+}
+
+.wreappers{
+    margin: auto;
 }
