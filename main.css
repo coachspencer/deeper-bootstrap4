@@ -54,3 +54,15 @@ h5.modal-title{
     padding: 10px;
     width: 34%;
 }
+
+.fa-battle-net{
+    color: springgreen;
+}
+
+.fa-cat{
+    color: rgb(21, 112, 67);
+}
+
+.fa-gitkraken{
+    color: transparent;
+}
